@@ -15,7 +15,7 @@ public class Ability : ScriptableObject {
 
 	public float RemainingTime {
 		get {
-			return cooldown - (Time.time - lastTimeUsed);
+			return firstUse ? 0 : Mathf.Clamp(cooldown - (Time.time - lastTimeUsed), 0, Mathf.Infinity);
 		}
 	}
 
