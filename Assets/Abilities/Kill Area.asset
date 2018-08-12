@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7b0635f4bfb73478ba61738d42a6e3, type: 3}
+  m_Name: Kill Area
+  m_EditorClassIdentifier: 
+  cooldown:
+    UseConstant: 1
+    Constant: 3
+    SOObject: {fileID: 0}
+  firstUse: 0
+  Prefab: {fileID: 1895848980441296, guid: f67fb6f1e202adc4380ce331c8f6bd9a, type: 2}
