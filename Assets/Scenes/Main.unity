@@ -1930,6 +1930,7 @@ MonoBehaviour:
   obj: {fileID: 1502051094164892, guid: 038d93f19de119547a5b598ff4034ea1, type: 2}
   SpawnDelay: 1
   SpawnInterval: 4
+  SpawnIntervalDecreaseRate: 0.95
 --- !u!4 &614060829
 Transform:
   m_ObjectHideFlags: 0
@@ -3815,6 +3816,7 @@ MonoBehaviour:
   obj: {fileID: 1502051094164892, guid: 038d93f19de119547a5b598ff4034ea1, type: 2}
   SpawnDelay: 2
   SpawnInterval: 4
+  SpawnIntervalDecreaseRate: 0.95
 --- !u!4 &1261399479
 Transform:
   m_ObjectHideFlags: 0
@@ -3859,6 +3861,7 @@ MonoBehaviour:
   obj: {fileID: 1502051094164892, guid: 038d93f19de119547a5b598ff4034ea1, type: 2}
   SpawnDelay: 3
   SpawnInterval: 4
+  SpawnIntervalDecreaseRate: 0.95
 --- !u!4 &1305341351
 Transform:
   m_ObjectHideFlags: 0
@@ -4359,6 +4362,7 @@ MonoBehaviour:
   obj: {fileID: 1502051094164892, guid: 038d93f19de119547a5b598ff4034ea1, type: 2}
   SpawnDelay: 0
   SpawnInterval: 4
+  SpawnIntervalDecreaseRate: 0.95
 --- !u!1 &1951663742
 GameObject:
   m_ObjectHideFlags: 0
