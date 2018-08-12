@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class KillEnemyOnContact : MonoBehaviour {
 	void OnTriggerEnter (Collider col) {
-		Destroy(col.gameObject);
-	}
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(col.gameObject);
+        }
+    }
 }

@@ -15,4 +15,12 @@ public class FollowPlayer : MonoBehaviour {
 	void Update () {
 		_agent.destination = _player.transform.position;
 	}
+
+    void OnCollisionEnter (Collision col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            Instantiate(gameObject, transform.position, transform.rotation);
+        }
+    }
 }
