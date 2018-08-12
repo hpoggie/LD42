@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5, y: -90.5}
+  m_AnchoredPosition: {x: 0.5, y: -152.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3376622
@@ -280,8 +280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5, y: 43.5}
-  m_SizeDelta: {x: 299.6, y: 165.5}
+  m_AnchoredPosition: {x: 0.5, y: 10.5}
+  m_SizeDelta: {x: 299.6, y: 195.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &175099814
 MonoBehaviour:
@@ -317,6 +317,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Enemies use up RAM. Kill them to free it up. You lose when your computer
     freezes.
+
+
+    Enemies duplicate themselves when they touch you. Stay away from them.
 
 
     Right click: move
@@ -496,7 +499,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chr*me
+  m_Text: G**gle Chr*me
 --- !u!222 &1128685366
 CanvasRenderer:
   m_ObjectHideFlags: 0
